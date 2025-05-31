@@ -1,7 +1,164 @@
+#prenxtbtn .carousel-control-prev-icon,
+#prenxtbtn .carousel-control-next-icon {
+  width: 20px;  /* Change width */
+  height: 20px; /* Change height */
+}
+
+.logo{
+    background: none;
+}
+.nav-link  {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+}
+.dropdown-menu {
+  width: 950px;
+  height: auto;
+  padding: 15px;;
+  border-radius: 20px;
+  column-count: 4;
+  margin-left: -500px;
+}
+.carousel{
+  width: auto;
+}
+.navbar{
+  font-size: 19px;
+  width: 100%;
+
+  
+}
+.dropdown-item-heading {
+  font-weight: bold;
+  font-size: 17px;
+  width: 120px;
+  display: block;
+  border-bottom: 3px solid #3f7bbd;
+  margin-bottom: 10px;
+}
+.ddown{
+  margin-left: 110px;
+}
+.ddown2{
+  margin-left: 100px;
+}
+.ddown1{
+  margin-left: 10px;
+}
+.dropdown-item {
+  font-size: 14px;
+}
+
+.dropdown-item i {
+  margin-right: 5px;
+  color: #3f7bbd;
+}
+.highlight-box {
+  background-color: rgb(31, 77, 122);
+  width: 320px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.highlight-box img {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+#navbarNavDropdown{
+margin-left: 350px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  /* width: auto; */
+}
+body {
+  padding-top: 120px; /* Adjust the padding for the content below */
+  font-family: Arial, sans-serif;
+  /* background-color: #f8f9fa; */
+}
+
+.demobtn {
+  margin-right: 60px; height: 40px; width: 250px; border-radius: 5px;
+  animation: scaleAnimation 0.5s infinite alternate;
+  }
+  @keyframes scaleAnimation {
+  0% {
+     transform: scale(1);
+   }
+ 100% {
+  transform: scale(1.2);
+ }  
+}
+.nav-link:hover{
+  color: #3f7bbd !important;
+}
+
+.highlight-box {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.highlight-box img {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Get Demo Pop up */
+
+.offcanvas .offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  position: absolute;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.offcanvas .offcanvas-body h2 {
+  color: #3f7bbd;
+  margin-bottom: 5px;
+}
+.offcanvas .offcanvas-body hr{
+  position: relative;
+  left: 0px;
+  font-weight: bolder;
+}
+.offcanvas .offcanvas-body p {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.offcanvas .offcanvas-body input, .offcanvas .offcanvas-body select{
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+}
+.offcanvas .offcanvas-body button {
+  width: 100%;
+  padding: 10px;
+  background: #3f7bbd;
+  border: none;
+  color: black;
+  border-radius: 5px;
+}
 .cat li{
     padding: 10px 0px 10px 10px;
     font-weight: bold;
   }
+ 
   li a {
       font-size: 15px;
       color: black;
@@ -16,7 +173,7 @@
     }
    
     /* Container for both divs */
-  .container {
+  .container-blog {
     display: flex; /* This will make the divs sit side by side */
     align-items: center; /* Vertically align them to the center */
     padding-bottom: 15px;
@@ -66,6 +223,23 @@
     display: inline-block;
       text-decoration: none;
   }
+
+  .hero-section{
+    height: 300px;
+    background:url('Final_Images/placement/frame_1261153007-scaled.png') no-repeat center center/cover;
+    /* background-image: radial-gradient(rgb(255, 149, 0)); */
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+  }
+  .hero-content{
+    font-size: x-large;
+    font-family:sans-serif;
+  }
+  .elementer-widget{
+    margin-top: 250px;
+  }
+
   .card{
     height: 100%;
   }
