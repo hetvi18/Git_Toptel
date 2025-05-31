@@ -1,0 +1,521 @@
+#prenxtbtn .carousel-control-prev-icon,
+#prenxtbtn .carousel-control-next-icon {
+  width: 20px;  /* Change width */
+  height: 20px; /* Change height */
+}
+
+.logo{
+    background: none;
+}
+.nav-link  {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+}
+.dropdown-menu {
+  width: 950px;
+  height: auto;
+  padding: 15px;;
+  border-radius: 20px;
+  column-count: 4;
+  margin-left: -500px;
+}
+.carousel{
+  width: auto;
+}
+.navbar{
+  font-size: 19px;
+  width: 100%;
+
+  
+}
+.dropdown-item-heading {
+  font-weight: bold;
+  font-size: 17px;
+  width: 120px;
+  display: block;
+  border-bottom: 3px solid #3f7bbd;
+  margin-bottom: 10px;
+}
+.ddown{
+  margin-left: 110px;
+}
+.ddown2{
+  margin-left: 100px;
+}
+.ddown1{
+  margin-left: 10px;
+}
+.dropdown-item {
+  font-size: 14px;
+}
+
+.dropdown-item i {
+  margin-right: 5px;
+  color: #3f7bbd;
+}
+.highlight-box {
+  background-color: rgb(31, 77, 122);
+  width: 320px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.highlight-box img {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+#navbarNavDropdown{
+margin-left: 350px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  /* width: auto; */
+}
+body {
+  padding-top: 120px; /* Adjust the padding for the content below */
+  font-family: Arial, sans-serif;
+  /* background-color: #f8f9fa; */
+}
+#broucherimage{
+  background-color: none;
+}
+.form-control{
+    background-color: rgb(244, 243, 243);
+}
+
+#courseSlider .carousel-control-prev-icon,
+#courseSlider .carousel-control-next-icon {
+  width: 40px;  /* Change width */
+  height: 40px; /* Change height */
+  font-size: 30px;
+  color: white;
+  /* position: relative; */
+  /* margin-left: -10px; */
+}
+
+.demobtn {
+  margin-right: 60px; height: 40px; width: 250px; border-radius: 5px;
+  animation: scaleAnimation 0.5s infinite alternate;
+  }
+  @keyframes scaleAnimation {
+  0% {
+     transform: scale(1);
+   }
+ 100% {
+  transform: scale(1.2);
+ }  
+}
+.nav-link:hover{
+  color: #3f7bbd !important;
+}
+
+.detail:hover{
+    background-color: rgb(152, 202, 237) !important;
+}
+
+.play:hover{
+    color: #3f7bbd !important;
+}
+
+.coursecard{
+    border-style: groove;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 5px solid rgba(228, 228, 228, 0.9);
+}
+
+.highlight-box {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.highlight-box img {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+
+
+
+/* Placement Page CSS */
+
+.hero-section{
+    height: 300px;
+    background:url('Final_Images/placement/frame_1261153007-scaled.png') no-repeat center center/cover;
+    /* background-image: radial-gradient(rgb(255, 149, 0)); */
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+  }
+  .hero-content{
+    font-size: x-large;
+    font-family:sans-serif;
+  }
+  .elementer-widget{
+    margin-top: 250px;
+  }
+  .heading-title{
+    margin: 70px;
+    margin-left: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .img-container{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .bottom-banner{
+    
+    margin:30px;
+  }
+  .footer-section-fluid{
+    height: auto;
+    background-color: rgb(158, 194, 231);
+  }
+  .footer_heading{
+    text-decoration: none;
+  }
+  .footer-bar-fluid{
+  margin-left: 10px;
+  height: 70px;
+  width: 900px;
+  padding-top: 10px;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  background: linear-gradient(to right,rgb(63, 123, 189),rgba(63, 123, 189, 0.74),rgba(63, 123, 189, 0) );
+  }
+  .footer-content{
+    font-size: 19px;
+    margin-right: 25px;
+    margin-left: 15px;
+  }
+  .class{
+    line-height: 2;
+  }
+  .links{
+    line-height: 2;
+  }
+
+  .class-data{
+    margin-left: -10%;
+  }
+
+  .subemail{
+    margin-left: 8%;
+  }
+
+  /* .subemail p{
+    width: 350px;
+  } */
+.subinput{
+  height: 100%; width: 90%; background-color: rgb(122, 171, 224); border-radius: 10px;
+}
+.jobfest{
+  margin-left: 50px;
+}
+/* @media only screen and (max-width: 992){
+  body{
+    padding-top: 150px; 
+
+  }
+} */
+
+  @media only screen and (max-width: 768px){
+    .footer-section-fluid{
+        height: 100%;
+    }
+    .footer-bar-fluid{
+        height: 100%;
+        width: 100%;
+      }
+  
+      .footer-text-logo{
+        font-size: smaller;
+      }
+      .class-data, .link-data{
+        margin-left: -5%;
+      }
+      .subemail{
+        margin-left: 1%;
+      }
+      .subinput{
+        width: 50%;
+      }
+      .socialmedia{
+        margin-left: -4%;
+      }
+      .regform{
+        width:100%;
+        position: relative;
+      }
+      .jobfest{
+        margin-left: -10%;
+      }
+
+      .demobtn{
+       margin: none;
+      }
+
+
+  }
+
+ 
+
+  
+
+  /* Blog Page CSS */
+
+  .cat li{
+    padding: 10px 0px 10px 10px;
+    font-weight: bold;
+  }
+  li a {
+      font-size: 15px;
+      color: black;
+      /* background-color: transparent; */
+      text-decoration: none;
+      
+    }
+     li a:hover {
+      color: #FFAA00;
+      background-color: transparent;
+      text-decoration:none;
+    }
+    /* Container for both divs */
+  .container-blog {
+    display: flex; /* This will make the divs sit side by side */
+    align-items: center; /* Vertically align them to the center */
+    padding-bottom: 15px;
+  }
+
+  /* Styling for the image div */
+  .image-div img {
+    /* max-width: 100%; */
+    height:100px;
+    width: 110px; 
+    border-radius: 15px;
+  }
+  
+  /* Styling for the text div */
+  .text-div {
+    max-width: 500px; /* Limit the width of the text */
+    margin-left: 20px; /* Space between the image and the text */
+  }
+  
+  
+  
+  
+  .three-lines-text {
+    max-width: 500px; /* Limit the width of the text */
+    margin-left: 20px;
+    width: 300px; /* Set a fixed width */
+    height: 4.5em; /* Adjust this to match 3 lines of text (3 * line height) */
+    line-height: 1.5em; /* Define line height */
+    /*overflow: hidden;  Hide overflowed text */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit to exactly 3 lines */
+    -webkit-box-orient: vertical;
+  }
+  .load-more {
+    text-align: center;
+  }
+  .warning-btn {
+    background-color: #FFAA00;
+    color: white; /* Text color */
+    border: none;
+    padding: 8px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* text-align: center; */
+    display: inline-block;
+      text-decoration: none;
+  }
+  .card{
+    height: 100%;
+  }
+  /* Responsive behavior for small screens */
+  @media (max-width: 992px) {
+    .col-md-6{
+      width: 100%;
+    }
+    /* .container {
+      flex-direction: column; 
+      text-align: center; 
+    } */
+  
+    /* .image-div img {
+      width: 80%; 
+      margin-bottom: 20px; 
+    } */
+  }
+
+
+
+  /* About Us */
+
+  .hero-section-about{
+    height: auto;
+    background:url('Final_Images/About/img2.jpg') no-repeat center center/cover;
+    background-image: radial-gradient(rgb(255, 149, 0));
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    
+  }
+  .hero-content-about{
+    font-size: x-large;
+    font-family:sans-serif;
+    
+  }
+
+
+  .job-guarantee {
+    background: white;
+    color: black;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}        .d-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containercenter{
+
+    position: relative;
+    bottom: 110px;
+}
+.product-item:hover {
+transform: translateY(5px);
+box-shadow: 0
+4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Contact Us CSS */
+
+.main_second_heading{
+  height: 350px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#side-ring{
+  height: 300px;
+  width: 150px;
+  display: flex;
+  justify-self: end;
+  position: relative;
+  top: -150px;
+}
+
+.second_half{
+  background: white;
+  position: relative;
+  top: 100px;
+}
+
+.iwindow{
+  justify-content: center;
+  align-items: space-evenly;
+  position: relative;
+  left: -3%;
+  padding-top: 3%;
+}
+
+.cc-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 40% !important;
+  height: fit-content;
+  z-index: 2;
+  position: relative;
+  top: 6%;
+}
+
+.cc-form .form-btn{
+  width: 40%;
+  padding: 10px;
+  background: #3f7bbd;
+  border: none;
+  color: black;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.cc-form input, .cc-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+}
+
+.cc-back_image{
+  /* height: ;
+  width: 600px; */
+  position: relative;
+  left: -10%;
+  z-index: 1;
+}
+main{
+  position: relative;
+  top: -270px;
+}
+
+/* Get Demo Pop up */
+
+.offcanvas .offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  position: absolute;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.offcanvas .offcanvas-body h2 {
+  color: #3f7bbd;
+  margin-bottom: 5px;
+}
+.offcanvas .offcanvas-body hr{
+  position: relative;
+  left: 0px;
+  font-weight: bolder;
+}
+.offcanvas .offcanvas-body p {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.offcanvas .offcanvas-body input, .offcanvas .offcanvas-body select{
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+}
+.offcanvas .offcanvas-body button {
+  width: 100%;
+  padding: 10px;
+  background: #3f7bbd;
+  border: none;
+  color: black;
+  border-radius: 5px;
+}

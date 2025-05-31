@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/018d56ffa3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mystyle.css">
+    
+    
+</head>
+<body>
+  <!-- Main Slider -->
+  <div class="fixed-top">
+    <div id="carouselExampleIndicators" class="carousel slide container-fluid" data-bs-ride="carousel" style="background-color: #3f7bbd; height: 40px">
+        <div class="carousel-inner">
+          <div class="carousel-item active text-white text-center p-2" >
+            100% Job Gurantee.
+          </div>
+          <div class="carousel-item text-white text-center p-2">
+            New Admissions Open For Career and Placement Courses.
+          </div>
+        </div>
+        <button id="prenxtbtn" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button id="prenxtbtn" class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+
+<!-- NavBar  -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm d-flex align-items-center">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./Final_Images/kict_logo.jpg" alt="Logo" class="img-fluid logo" style="height: 50px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+                <a class="nav-link fw-bolder text-black" href="index.html" role="button" data-bs-toggle="">
+                    Home</a>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle fw-bolder text-black" href="#" role="button" data-bs-toggle="dropdown">
+                     Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                      <div class="col">
+                        <div class="highlight-box">
+                            <img src="Final_Images/UI-UX_Navbar.png" alt="">
+                            <div style="margin-left: 7px;">
+                                <h6 class="mb-1">Master in UI/UX Design</h6>
+                                <small>Figma, Photoshop, Illustrator, XD, Ai tools...</small>
+                            </div>
+                        </div>
+                        <div class="highlight-box">
+                            <img src="Final_Images/Advanceweb.png" alt="">
+                            <div style="margin-left: 7px">
+                                <h6 class="mb-1">Advance Web Design</h6>
+                                <small>Figma, Photoshop, Illustrator, XD, HTML5, CSS3, Bootstrap etc...</small>
+                            </div>
+                        </div>
+                        <div class="highlight-box">
+                            <img src="Final_Images/FullStack.png" alt="">
+                            <div style="margin-left: 7px">
+                                <h6 class="mb-1">Full Stack Development</h6>
+                                <small>HTML5, CSS3, Bootstrap, jQuery, React Js, Java Script</small>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="col ddown">
+                      <span class="dropdown-item-heading">Multimedia Courses</span>
+                      <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i> Advance Web Design</a>
+                      <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i> Master in UI/UX Design</a>
+                      <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i> Full Stack Development</a>
+                      <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i> Master in Graphics Design</a>
+                      <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i> Game Development</a>
+                      <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i> Flutter Development</a>
+                      <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i> Digital Marketing</a>
+                      <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i> Wordpress</a>
+                  </div>
+                    
+                    <div class="col ddown2">
+                    <span class="dropdown-item-heading">Short Term Courses</span>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>C/C++</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>Figma</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>Filmora</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>Canva</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>Wordpress</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>Adobe XD</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>Adobe Illustrator</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>React JS</a>
+                </div>
+                  
+                    <div class="col ddown1">
+                    <span class="dropdown-item-heading">Trending Courses</span>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>Master in UI/UX Design</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>Advance Web Design</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>Full Stack Development</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>Node JS</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>React JS</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>Frontend Development</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>Game Development</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>Digital Maarketing</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-check-circle"></i>Video Editing</a>
+                </div>
+                  
+                </ul>
+            </li>
+            <a class="nav-link fw-bolder text-black" href="aboutus.html" role="button" data-bs-toggle="">About Us</a>
+                
+            <a class="nav-link fw-bolder text-black" href="placement.html" role="button" data-bs-toggle="">Placement</a>
+                
+            <a class="nav-link fw-bolder text-black" href="blog.html" role="button" data-bs-toggle="">Blog</a>
+                
+            <a class="nav-link fw-bolder text-black" href="contactus.html" role="button" data-bs-toggle="">Contact Us</a>
+            </ul>
+          </div>
+        </div>
+        <button class="demobtn bg-dark text-white fw-bolder" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" >Get Demo Lecture</button>
+      </nav>
+  </div>
+
+      <!-- Slider Image Home Page -->
+
+  <div id="CourseHomePageSlider" class="carousel slide" data-bs-ride="carousel" >
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./Final_Images/Main_Slider_1.png" class="d-block h-100 w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Final_Images/Main_Slider_2.png" class="d-block h- w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Final_Images/Main_Slider_3.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Final_Images/Main_Slider_4.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Final_Images/Main_Slider_5.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Final_Images/Main_Slider_6.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Final_Images/Main_Slider_7.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Final_Images/Main_Slider_8.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+        </div>
+        <button id="courseSlider" class="carousel-control-prev" type="button" data-bs-target="#CourseHomePageSlider"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button id="courseSlider" class="carousel-control-next" type="button" data-bs-target="#CourseHomePageSlider"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+  </div>
+
+  <!-- Counter Section -->
+
+  <div class="container-fluid p-5">
+    <!-- Count Image Container -->
+  <div class="container-fluid d-flex justify-content-center">
+    <img src="Final_Images/students + google 1 final_Vertical.jpg" class="img-fluid d-none d-md-block" alt="">
+
+    <!-- second image if the screen is medium or small -->
+    <img src="Final_Images/students + google 2 final_smallScreen.jpg" class="img-fluid d-block d-md-none" alt="" style="height: 500px;">
+  </div>
+
+  <!-- Job Oriented Course Container -->
+   <div class="coursecard container-fluid p-5" style="margin-top: 70px;">
+      <h3 class="text-center fw-bolder"> JOB ORIENTED 
+        <span style="color: #3f7bbd;"> IT COURSE IN SURAT</span>
+      </h3>
+
+      <div class="container mt-5">
+        <div class="row g-4">
+          <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+        <div class="card" style=" border-radius: 10px; overflow: hidden;">
+            <div>
+                <img src="Final_Images/Course1.webp" class="card-img-top" alt="Cloud Image">
+            </div>
+            <div class="card-body text-center"  >
+                <h5 class="card-title">Master in </h5>
+                <h5 class="card-title fw-bolder">Web Design </h5>
+                <a href="#" class="detail btn btn-dark w-50" style="border-radius: 5px;">More Details</a>
+            </div>
+        </div>
+        </div>
+
+        <!-- 2nd Course -->
+        <div class="col-lg-3 col-sm-6  mt-3 position-relative">
+          <div class="card" style=" border-radius: 10px; overflow: hidden;">
+              <div>
+                  <img src="./Final_Images/Course2.webp" class="card-img-top" alt="Cloud Image">
+              </div>
+              <div class="card-body text-center"  >
+                  <h5 class="card-title">Master in </h5>
+                  <h5 class="card-title fw-bolder">UI/UX Design </h5>
+                  <a href="#" class="detail btn btn-dark w-50 " style="border-radius: 5px;">More Details</a>
+              </div>
+          </div>
+          </div>
+  
+
+            <!-- 3rd Course -->
+            <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+              <div class="card" style=" border-radius: 10px; overflow: hidden;">
+                  <div>
+                      <img src="./Final_Images/Course3.webp" class="card-img-top" alt="Cloud Image">
+                  </div>
+                  <div class="card-body text-center"  >
+                      <h5 class="card-title">Master in </h5>
+                      <h5 class="card-title fw-bolder">Graphics Design </h5>
+                      <a href="#" class="detail btn btn-dark w-50 " style="border-radius: 5px;">More Details</a>
+                  </div>
+              </div>
+              </div>
+      
+
+                <!-- 4th Course -->
+                <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+                  <div class="card" style=" border-radius: 10px; overflow: hidden;">
+                      <div>
+                          <img src="Final_Images/Course4.webp" class="card-img-top" alt="Cloud Image">
+                      </div>
+                      <div class="card-body text-center"  >
+                          <h5 class="card-title">Master in </h5>
+                          <h5 class="card-title fw-bolder">Frontend Development </h5>
+                          <a href="#" class="detail btn btn-dark w-50 " style="border-radius: 5px;">More Details</a>
+                      </div>
+                  </div>
+                  </div>
+          
+
+            <!-- 5th Course -->
+
+            <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+              <div class="card" style=" border-radius: 10px; overflow: hidden;">
+                  <div>
+                      <img src="./Final_Images/Course5.webp" class="card-img-top" alt="Cloud Image">
+                  </div>
+                  <div class="card-body text-center"  >
+                      <h5 class="card-title">Master in </h5>
+                      <h5 class="card-title fw-bolder">Full Stack Development </h5>
+                      <a href="#" class="detail btn btn-dark w-50 " style="border-radius: 5px;">More Details</a>
+                  </div>
+              </div>
+              </div>
+      
+
+                <!-- 6th Course -->
+                <div class="col-lg-3 col-sm-6  mt-3 position-relative">
+                  <div class="card" style=" border-radius: 10px; overflow: hidden;">
+                      <div>
+                          <img src="Final_Images/Course6.webp" class="card-img-top" alt="Cloud Image">
+                      </div>
+                      <div class="card-body text-center"  >
+                          <h5 class="card-title">Master in </h5>
+                          <h5 class="card-title fw-bolder">MERN Stack Development </h5>
+                          <a href="#" class="detail btn btn-dark w-50 " style="border-radius: 5px;">More Details</a>
+                      </div>
+                  </div>
+                  </div>
+
+        <!-- 7th Course -->
+        <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+          <div class="card" style=" border-radius: 10px; overflow: hidden;">
+              <div>
+                  <img src="Final_Images/Course7.webp" class="card-img-top" alt="Cloud Image">
+              </div>
+              <div class="card-body text-center"  >
+                  <h5 class="card-title">Master in </h5>
+                  <h5 class="card-title fw-bolder">Flutter Development </h5>
+                  <a href="#" class="detail btn btn-dark w-50 " style="border-radius: 5px;">More Details</a>
+              </div>
+          </div>
+          </div>
+          
+      <!-- 8th Course -->
+
+      <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+        <div class="card" style=" border-radius: 10px; overflow: hidden;">
+            <div>
+                <img src="Final_Images/Course8.webp" class="card-img-top" alt="Cloud Image">
+            </div>
+            <div class="card-body text-center"  >
+                <h5 class="card-title">Master in </h5>
+                <h5 class="card-title fw-bolder">Digital Marketing </h5>
+                <a href="#" class="detail btn btn-dark w-50 " style="border-radius: 5px;">More Details</a>
+            </div>
+        </div>
+        </div>
+          
+    </div>
+</div>
+</div>  
+</div>
+
+<!-- Broucher Part -->
+
+<div class="container-fluid mt-5">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <img src="Final_Images/brochure_image.png" class="img-fluid" alt="" style="margin-left: 150px; height: 400px;" class="img-fluid" id="broucherimage">
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <h3 class="card-title fw-bolder">GET <span style="color: #3f7bbd;">100% JOB</span>
+        PLACEMENT SUPPORT & GET PLACED IN YOUR DREAM COMPANY
+         </h3><br>
+         <a href="#" class="detail btn btn-dark fw-bolder" style="border-radius: 5px; height: 40px; width: 200px;">
+          Download Brochure <i class="fa-solid fa-circle-arrow-down fa-sm" style="color: #f7f7f7;"></i></a><br>
+         <p style=" font-family: Poppins, Sans-serif; margin-top: 15px; line-height: 2; font-size: 20px; text-align: justify; margin-right: 40px;">Computer classes in Surat: Toptel Multimedia offers the best online IT courses and computer courses online, making it the top choice for 
+          computer classes and Web Design Training Institute in Surat. As a leading IT professional training and Live IT Project training 
+          center, we serve IT students and freshers with 100% job placement assistance. We provide placement opportunities to all students within our 
+          own group of companies and other well-known IT firms. If you’re searching for a computer course near me, Toptel Multimedia is 
+          the perfect destination for your career growth.</p>
+
+    </div>
+  </div>
+
+</div>
+
+
+<!-- Students Placed Container -->
+ <div class="container-fluid placement" style="background-color:  rgb(234, 238, 242);">
+  <br><br><br>    <!--Student placed heading top margin nathi nathi. -->
+  <h3 class="card-title fw-bolder text-black text-center">STUDENT <span style="color: #3f7bbd;">PLACED</span>
+    <div class="container mt-5">
+      <div class="row ">
+      <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+      <div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+              <img src="Final_Images/placement/student_reviews_and_job_placement_8_scaled.webp" class="card-img-top" alt="Cloud Image">
+      </div>
+      </div>
+
+      <!-- placement 2 -->
+      <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+        <div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+                <img src="Final_Images/placement/student_reviews_and_job_placement_7.webp" class="card-img-top" alt="Cloud Image">
+        </div>
+        </div>
+    
+    <!-- Placement 3 -->
+    <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+      <div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+              <img src="Final_Images/placement/student_reviews_and_job_placement_6.webp" class="card-img-top" alt="Cloud Image">
+      </div>
+      </div>
+
+    <!-- Placement 4 -->
+    <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+      <div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+              <img src="Final_Images/placement/student_reviews_and_job_placement_5.webp" class="card-img-top" alt="Cloud Image">
+      </div>
+      </div>
+
+  <!-- Placement 5 -->
+  <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+    <div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+            <img src="Final_Images/placement/student_reviews_and_job_placement_4.webp" class="card-img-top" alt="Cloud Image">
+    </div>
+    </div>
+
+  <!-- Placement 6 -->
+  <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+    <div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+            <img src="Final_Images/placement/student_reviews_and_job_placement_3_1.webp" class="card-img-top" alt="Cloud Image">
+    </div>
+    </div>
+
+<!-- Placement 7 -->
+<div class="col-lg-3 col-sm-6 mt-3 position-relative">
+  <div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+          <img src="Final_Images/placement/student_reviews_and_job_placement_2.webp" class="card-img-top" alt="Cloud Image">
+  </div>
+  </div>
+
+<!-- Placement 8 -->
+<div class="col-lg-3 col-sm-6 mt-3 position-relative">
+  <div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+          <img src="Final_Images/placement/student_reviews_and_job_placement_1.webp" class="card-img-top" alt="Cloud Image">
+  </div>
+  </div>
+</div>
+<div class="container-fluid d-flex justify-content-center">
+<a href="placement.html" class="detail btn text-black mt-5 fw-bolder" style="margin-bottom: 80px; font-size: 20px; border-radius: 10px; background-color: white;">View All Placement</a>
+</div>
+</div>
+ </div>
+
+<!-- Student Feedback Section -->
+<div class="container-fluid p-5" > <!--Margin top does not work here for some reason -->
+  <!-- here in h3 if you give margin top then container leaves a gap why?????? -->
+  <h3 class="card-title fw-bolder text-center" style="margin-bottom: 10px;">OUR STUDENTS <span style="color: #3f7bbd;">FEEDBACK</span><br>
+  <div class="row" style="margin-left: 50px; margin-right: 50px;">
+    <div class="col-lg-4 col-sm-12 mt-3 position-relative" >
+      <a href="https://www.youtube.com/watch?v=Cob8_IQ8Okc" target="_blank">
+      <img src="Final_Images/feedback/nikhil_kumbhani.webp" alt="" style="height: 250px; width:700px; border-radius: 10px;" class="img-fluid">
+      <i class="fa-solid fa-circle-play fa-xl play" style="color: white; position: absolute; top: 50%; left: 50%;  transform: translate(-50%, -50%);" ></i>
+        </a>
+      <!-- hhow to place play button on  -->
+    </div>
+    <!-- Video 2 -->
+    <div class="col-lg-4 col-sm-12 mt-3 position-relative">
+      <a href="https://www.youtube.com/watch?v=iJsPAPB-XV8" target="_blank">
+      <img src="Final_Images/feedback/ishita_gajera-1536x864.webp" alt="" style="height: 250px; width:700px; border-radius: 10px;" class="img-fluid">
+      <i class="fa-solid fa-circle-play fa-xl play" style="color: white; position: absolute; top: 50%; left: 50%;  transform: translate(-50%, -50%);" ></i>
+    </a>
+    </div>
+
+    <!-- Video 3 -->
+    <div class="col-lg-4 col-sm-12 mt-3 position-relative">
+      <a href="https://www.youtube.com/watch?v=lINz3UMliyc" target="_blank">
+      <img src="Final_Images/feedback/krishana_ganagni-1536x864.webp" alt="" style="height: 250px; width:700px; border-radius: 10px;" class="img-fluid">
+      <i class="fa-solid fa-circle-play fa-xl play" style="color: white; position: absolute; top: 50%; left: 50%;  transform: translate(-50%, -50%);" ></i>
+      </a>
+    </div>
+  </div>
+  <a href="#" class="detail btn btn-dark text-white mt-4 fw-bolder" style="margin-bottom: 40px; font-size: 20px; border-radius: 10px;">Watch More Reviews</a>
+
+</div>
+
+<!-- Life at Toptel Section -->
+ <div class="container-fluid p-3">
+  <h2 class="fw-bolder" style="margin-top: 20px; margin-left: 50px;">LIFE AT <span style="color: #3f7bbd;">KICT INDIA</span></h2>
+    <div class="row" style="margin-left: 50px; margin-right: 50px;">
+      <div class="col-lg-9 col-sm-12 mt-3 position-relative" >
+        <p style=" font-family: Poppins, Sans-serif; margin-top: 15px; line-height: 1.5; font-size: 20px; text-align: justify; margin-right: 40px;">Computer Classes in Surat – Toptel 
+        Multimedia offers the best online IT courses and computer courses online , focusing on education and skill-building. 
+        You’ll be immersed in a dynamic learning environment where you’ll gain both technical knowledge and practical skills in 
+        information technology. If you’re searching for a “computer course near me,” Toptel Multimedia is your ideal choice for 
+        top-notch training.</p>
+      </div>
+      <div class="col-lg-3 col-sm-12 mt-3 position-relative" >
+        <a href="https://www.youtube.com/@toptelmultimedia" target="_blank" class="detail btn btn-dark text-white mt-4 fw-bolder" style="margin-bottom: 40px; font-size: 20px; border-radius: 10px;">Visit Youtube Channel 
+          <i class="fa-brands fa-youtube" style="color: #eeeff2;"></i>
+        </a>
+      </div>
+ </div>
+ <div class="container mt-5">
+    <div class="row g-4">
+    <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+    <div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+            <img src="Final_Images/LifeAt/rectangle_4334.webp" class="card-img-top" alt="Cloud Image">
+    </div>
+    </div>
+
+    <!-- life at 2 -->
+    <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+      <div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+              <img src="Final_Images/LifeAt/rectangle_4335.webp" class="card-img-top" alt="Cloud Image">
+      </div>
+      </div>
+  
+  <!-- life at 3 -->
+  <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+    <div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+            <img src="Final_Images/LifeAt/rectangle_4336.webp" class="card-img-top" alt="Cloud Image">
+    </div>
+    </div>
+
+  <!-- life at 4 -->
+  <div class="col-lg-3 col-sm-6 mt-3 position-relative">
+    <div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+            <img src="Final_Images/LifeAt/rectangle_4337.webp" class="card-img-top" alt="Cloud Image">
+    </div>
+    </div>
+
+<!-- life at 5 -->
+<div class="col-lg-3 col-sm-6 mt-3 position-relative">
+  <div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+          <img src="Final_Images/LifeAt/rectangle_4338.webp" class="card-img-top" alt="Cloud Image">
+  </div>
+  </div>
+
+<!-- life at 6 -->
+<div class="col-lg-3 col-sm-6 mt-3 position-relative">
+  <div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+          <img src="Final_Images/LifeAt/rectangle_4339.webp" class="card-img-top" alt="Cloud Image">
+  </div>
+  </div>
+
+<!-- life at 7 -->
+<div class="col-lg-3 col-sm-6 mt-3 position-relative">
+<div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+        <img src="Final_Images/LifeAt/rectangle_4340.webp" class="card-img-top" alt="Cloud Image">
+</div>
+</div>
+
+<!-- life at 8 -->
+<div class="col-lg-3 col-sm-6 mt-3 position-relative">
+<div class="card" style="border:none; border-radius: 20px; overflow: hidden;">
+        <img src="Final_Images/LifeAt/rectangle_4341.webp" class="card-img-top" alt="Cloud Image">
+</div>
+</div>
+
+</div>
+</div>
+ </div>
+
+
+
+<!-- Job Fest Container -->
+
+<div clas="container-fluid " style="margin-left: 60px;">
+    <div class="row">
+    <div class="regform col-lg-3 col-sm-12 p-5" style="margin-right: 10px;">
+        <div class="card shadow" style="width: 18rem; border-radius: 25px; overflow: hidden; width: 400px;">
+            <div style="position: relative;">
+                <img src="Final_Images/Jobfest.webp" class="card-img-top" alt="Cloud Image" style="border-bottom: 5px solid #3f7bbd; border-bottom-style: inset; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; height: 200px;">
+            </div>
+            <h3 class="fw-bold mt-3 text-center">Register for Next Job Fest</h3>
+            <div class="card-body mt-2 d-flex justify-content-between align-items-center text-center mb-2">
+                    <form style=" width: 100%;">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Contact Number">
+                        </div>
+                        <button type="submit" class="detail btn btn-dark text-white">Submit</button>
+                    </form>
+            </div>
+        </div> 
+    </div>
+    <div class="jobfest col-lg-8 col-12 " style="padding: 140px;">
+        <h3 class="fw-bolder text-align"> JOBFEST BY 
+            <span style="color: #3f7bbd;">KICT Computer Education Institute</span> 
+        </h3><br>
+        <p style="font-family: Poppins, Sans-serif; line-height: 1.5; text-align: justify;font-size: 20px;">
+            Are you ready to take your career to the next level? Whether you’re a recent graduate 
+            looking to kickstart your professional journey.</p>
+        <span style="font-family: Poppins, Sans-serif; line-height: 1.5; font-size: 18px;"><i class="fa-regular fa-circle-check" style="color: #b2d8f5;"></i> Each student interviews with maximum companies in 1 day</span> <br>
+        <span style="font-family: Poppins, Sans-serif; line-height: 1.5; font-size: 18px;"><i class="fa-regular fa-circle-check" style="color: #b2d8f5;"></i> 
+        Companies get to interact with multiple candidates and offer maximum salaries </span> <br>
+        <span style="font-family: Poppins, Sans-serif; line-height: 1.5; font-size: 18px;"><i class="fa-regular fa-circle-check" style="color: #b2d8f5;"></i> Companies get to interact with multiple candidates and offer maximum salaries </span>
+    </div>
+</div>
+</div>
+
+
+<!-- Placement Partner Container -->
+<div class="container-fluid p-5">
+    <h2 class="fw-bolder text-center"> OUR PLACEMENT 
+        <span style="color: #3f7bbd;">PARTNERS</span> 
+    </h2>
+    <div class="row p-2">
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                <img src="Final_Images/Partners/group_1261153361.webp" class="card-img-top" alt="Cloud Image">
+        </div>
+
+        <!-- img 2 -->
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                    <img src="Final_Images/Partners/group_1261153362.webp" class="card-img-top" alt="Cloud Image">
+        </div>
+
+        <!-- img 3 -->
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                    <img src="Final_Images/Partners/group_1261153372.webp" class="card-img-top" alt="Cloud Image">
+        </div>
+
+        <!-- img 4 -->
+
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                    <img src="Final_Images/Partners/group_1261153364.webp" class="card-img-top" alt="Cloud Image">
+        </div>
+
+        <!-- img 5 -->
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                    <img src="Final_Images/Partners/group_1261153363.webp" class="card-img-top" alt="Cloud Image">
+        </div>
+
+        <!-- img 6 -->
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                    <img src="Final_Images/Partners/group_1261153368.webp" class="card-img-top" alt="Cloud Image">
+        </div>
+        
+        <!-- img 7 -->
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                    <img src="Final_Images/Partners/group_1261153367.webp" class="card-img-top" alt="Cloud Image">
+        </div>
+
+        <!-- img 8 -->
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                    <img src="Final_Images/Partners/group_1261153366-1.webp" class="card-img-top" alt="Cloud Image">
+        </div>
+
+        <!-- img 9 -->
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                    <img src="Final_Images/Partners/group_1261153361.webp" class="card-img-top" alt="Cloud Image">
+        </div>
+
+        <!-- img 10 -->
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                    <img src="Final_Images/Partners/group_1261153371.webp" class="card-img-top" alt="Cloud Image">
+        </div>
+
+        <!-- img 11 -->
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                    <img src="Final_Images/Partners/group_1261153379.webp" class="card-img-top" alt="Cloud Image">
+        </div>
+
+        <!-- img 12 -->
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                    <img src="Final_Images/Partners/group_1261153380.webp" class="card-img-top" alt="Cloud Image">
+        </div>
+
+        <!-- img 13 -->
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                    <img src="Final_Images/Partners/Group-1261153381.png" class="card-img-top" alt="Cloud Image">
+        </div>
+        
+        <!-- img 14 -->
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                    <img src="Final_Images/Partners/Group-1261153370.png" class="card-img-top" alt="Cloud Image">
+        </div>
+
+        <!-- img 15 -->
+        <div class="col-lg-2 col-sm-6 mt-3 position-relative" style="width: 250px;">
+                    <img src="Final_Images/Partners/Group-1261153365.png" class="card-img-top" alt="Cloud Image">
+        </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center">
+      <!-- Center ma nathi avtu div vagar????? -->
+    <a href="#" class="detail btn btn-dark mt-2 mb-3" style="border-radius: 5px; width: 150px;">View More</a>  
+  </div>
+</div>
+
+<!-- Contact Us Paart -->
+
+
+<div class="container-fluid p-5" style="background-image: url('Final_Images/Map.webp'); background-color: rgba(0,0,0,0.3);" >
+  <h3 class="fw-bolder text-center text-black" style="color: black; margin-bottom: 25px; ">OUR CENTERS IN 
+    <span style="color: #3f7bbd;">GUJARAT</span> 
+  </h3>
+
+  <div class="row">
+    <div class="col-lg-6 col-md-6">
+      <div class="card" style=" border-radius: 10px; overflow: hidden;">
+        <!-- <div class="m-4"> -->
+          <div class="container-fluid m-4 location_img" style="background-image: url('Final_Images/Location/rectangle_43341111.webp'); height: 300px; width: auto; border-radius: 10px;">
+              <h4 class="text-center" style="margin-left: 40%; background-color:rgb(191, 220, 240); width: 120px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;"> Uttaran</h4>
+          </div>
+        <!-- </div> -->
+        <div class="card-body"  >
+          <div class="row">
+            <div class="col">
+              <i class="fa-solid fa-location-dot fa-xl" style="color: #3f7bbd;"></i>
+              </div>
+              <div class="col-11">
+                <h5 class="card-title" style="text-align: initial;"> 127-130/ Amby Valley Arcade, Opp.
+                  Sentosa Heights, Uttran, Surat, Gujarat 394105.  </h5>
+              </div> 
+              <div class="row mt-3">
+                <div class="col">
+                  <i class="fa-solid fa-phone-volume fa-xl" style="color: #3f7bbd;"></i>
+               </div>
+               <div class="col-11">
+                <h5 class="card-title fw-bolder" style="text-align: left; font-size: 25px;"> +91 99046 00063</h5>
+               </div>
+          </div>
+            </div>
+            <a href="#" class="detail btn btn-dark fw-bold mt-3" style="border-radius: 5px; font-size: 20px;">Get Direction 
+              <i class="fa-solid fa-location-arrow" style="color: #fafafa;"></i>
+            </a>
+
+            <img src="./Final_Images/kict_logo.jpg" alt="" style="height: 50px; width: 170px; float: right;">
+
+        </div>
+    </div>
+    </div>
+
+    <!-- 2nd location -->
+
+    <div class="col-lg-6 col-md-6">
+      <div class="card" style=" border-radius: 10px; overflow: hidden;">
+          <div class="container-fluid m-4 location_img" style="background-image: url('Final_Images/Location/rectangle_4334111111.webp'); height: 300px; width: auto; border-radius: 10px;">
+              <h4 class="text-center" style="margin-left: 40%; background-color:rgb(191, 220, 240); width: 120px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;"> Sarthana</h4>
+          </div>
+        <div class="card-body"  >
+          <div class="row">
+            <div class="col">
+              <i class="fa-solid fa-location-dot fa-xl" style="color: #3f7bbd;"></i>
+              </div>
+              <div class="col-11">
+                <h5 class="card-title" style="text-align: initial;"> 201/Global Point, Beside, Navjivan Restaurant, 
+                  Surat, Gujarat 395006.  </h5>
+              </div> 
+              <div class="row mt-3">
+                <div class="col">
+                  <i class="fa-solid fa-phone-volume fa-xl" style="color: #3f7bbd;"></i>
+               </div>
+               <div class="col-11">
+                <h5 class="card-title fw-bolder" style="text-align: left; font-size: 25px;"> +91 90990 09026</h5>
+               </div>
+          </div>
+            </div>
+            <a href="#" class="detail btn btn-dark fw-bold mt-3" style="border-radius: 5px; font-size: 20px;">Get Direction 
+              <i class="fa-solid fa-location-arrow" style="color: #fafafa;"></i>
+            </a>
+
+            <img src="./Final_Images/kict_logo.jpg" alt="" style="height: 50px; width: 170px; float: right;">
+
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Our Blog -->
+<div class="container-fluid mt-5">
+  <h3 class="fw-bolder text-center text-black" style="color: black; margin-bottom: 25px; ">OUR 
+    <span style="color: #3f7bbd;">BLOG</span> 
+  </h3>
+  <div class="container mt-5 ">
+    <div class="row">
+      <div class="col-lg-4">
+       <div class="card shadow position-relative" style=" border-radius: 10px; overflow: hidden;">
+            <img src="Final_Images/Blog/ui-ux-course-near-me.png" class="card-img-top" alt="Cloud Image" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
+        <div class="card-body" style="border-radius: 10px;">
+            <div class="d-flex justify-content-center text-center p-1 mb-2" style="background-color:rgb(191, 220, 240); width: 100px; border-radius: 5px;">
+                <h6  style="color: #3f7bbd; font-size: 17px;"> Ux Design</h6>
+            </div>
+            <h5 class="card-title mb-3">Become a UX/UI Expert in 4 Months</h5>
+            <div class="row mt-5">
+                <div class="col-6" style="font-size: 14px;"><i class="fa-solid fa-calendar-days" style="color: #3f7bbd;"></i> July,13 2024</div>
+                <div class="col-6" style="font-size: 14px;"><i class="fa-solid fa-user" style="color: #3f7bbd;"></i> Umesh Godhani</div>                   
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- 2nd blog -->
+  <div class="col-lg-4">
+    <div class="card shadow position-relative" style=" border-radius: 10px; overflow: hidden;">
+         <img src="Final_Images/Blog/rectangle_73.webp" class="card-img-top" alt="Cloud Image" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
+     <div class="card-body" style="border-radius: 10px;">
+         <div class="d-flex justify-content-center text-center p-1 mb-2" style="background-color:rgb(191, 220, 240); width: 120px; border-radius: 5px;">
+             <h6 style="color: #3f7bbd; font-size: 17px;"> Web Design</h6>
+         </div>
+         <h5 class="card-title mb-3">Best Web Design Training Institute in Surat</h5>
+         <div class="row mt-5">
+             <div class="col-6" style="font-size: 14px;"><i class="fa-solid fa-calendar-days" style="color: #3f7bbd;"></i> January,12 2022</div>
+             <div class="col-6" style="font-size: 14px;"><i class="fa-solid fa-user" style="color: #3f7bbd;"></i> Umesh Godhani</div>                   
+         </div>
+     </div>
+ </div>
+</div>
+
+<!-- 3rd blog -->
+<div class="col-lg-4">
+  <div class="card shadow position-relative" style=" border-radius: 10px; overflow: hidden;">
+       <img src="Final_Images/Blog/UX-Design-Career-in-2020.png" class="card-img-top" alt="Cloud Image" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
+   <div class="card-body" style="border-radius: 10px;">
+       <div class="d-flex justify-content-center text-center p-1 mb-2" style="background-color:rgb(191, 220, 240); width: 100px; border-radius: 5px;">
+           <h6 style="color: #3f7bbd; font-size: 17px;"> Ux Design</h6>
+       </div>
+       <h5 class="card-title mb-3">5 Stunning Reasons to Switch to a UX Design Career in 2024!</h5>
+       <div class="row mt-4">
+           <div class="col-6" style="font-size: 14px;"><i class="fa-solid fa-calendar-days" style="color: #3f7bbd;"></i> January,12 2022</div>
+           <div class="col-6" style="font-size: 14px;"><i class="fa-solid fa-user" style="color: #3f7bbd;"></i> Umesh Godhani</div>                   
+       </div>
+   </div>
+</div>
+</div>
+</div>
+<div class="container-fluid d-flex justify-content-center m-2">
+  <!-- Center ma nathi avtu div vagar????? -->
+<a href="#" class="detail btn btn-dark mt-3 mb-3 fw-bolder" style="border-radius: 8px; width: 120px; font-size: 20px;">View All</a>  
+</div>
+</div>
+
+</div>
+
+<!-- Bottom Image  -->
+<div class="bottom-banner p-3 mt-3">
+  <a href=""><img src="Final_Images/Website-bottom-banner.png" alt="" class="img-fluid" srcset="" height="550px" width="100%"></a>
+</div>
+
+ <!-- footer -->
+ <div class="footer-section-fluid">
+  <div class="footer-logo d-flex justify-content-around p-5 flex-lg-row flex-md-row flex-column">
+    <div class="mx-lg-0 mx-md-0 mx-5">
+      <img src="Final_Images/kict_logo.jpg"
+          alt srcset height="70px">
+  </div>      
+  <div class="footer-bar-fluid d-flex flex-lg-row flex-md-row flex-sm-column mt-lg-0 mt-md-0 mt-3">
+          <div class="d-flex flex-md-row flex-column flex-wrap">
+              <div class="footer-content d-flex footer-text-logo" >
+                <div style="height: 50px; width: 50px; border-radius: 200px;"><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30" style="margin: 10px;"
+                  fill="white"
+                  class="bi bi-telephone-fill"
+                  viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                      d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+              </svg></div>                  <div>
+                      <span
+                          style="color: white; font-family: sans-serif; margin-left: 10px;">Ghatlodiya
+                          Branch:-</span>
+                      <p
+                          style="color: white; font-family: sans-serif; margin-left: 10px; ">+91
+                          99046 00063</p>
+                  </div>
+              </div>
+              <div class="footer-content d-flex">
+                <div
+                      style="height: 50px; width: 50px; border-radius: 200px;"><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="30" style="margin: 10px;"
+                          fill="white"
+                          class="bi bi-telephone-fill"
+                          viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                              d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                      </svg></div>
+                  <div>
+                      <span
+                          style="color: white; font-family: sans-serif;margin-left: 10px;">South Bopal
+                          Branch:-</span>
+                      <p
+                          style="color: white; font-family: sans-serif; margin-left: 10px;">+91
+                          90990 09026</p>
+                  </div>
+              </div>
+              <div class="footer-content d-flex">
+                <div
+                      style="height: 50px; width: 50px; border-radius: 200px; margin-left: 10px;"><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="30" style="margin: 10px;"
+                          fill="white"
+                          class="bi bi-envelope-fill"
+                          viewBox="0 0 16 16">
+                          <path
+                              d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                      </svg></div>
+                  <div style="margin-top: 10px; margin-left: 10px;">
+                      <p
+                          style="color: white; font-family: sans-serif;">kictindia@gmail.com</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="footer-middle-fluid d-flex flex-lg-row flex-md-row flex-column" style="margin-left: 6%;">
+      <div class="class">
+          <div>
+              <h4
+                  style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Our
+                  Courses</h4>
+          </div>
+          <div class="class-data d-flex flex-lg-row flex-md-row flex-column" >
+              <div class="d-flex">
+                  <div>
+                      <ul style="list-style: none;">
+                          <li>
+                              <a class="footer_heading" href="courses.html"
+                                  style="color: gray; font-family:sans-serif; ">Web
+                                  Design</a>
+                          </li>
+                          <li>
+                              <a class="footer_heading" href="courses.html"
+                                  style="color: gray; font-family:sans-serif;">UI/UX
+                                  Design</a>
+                          </li>
+                          <li>
+                              <a class="footer_heading" href="courses.html"
+                                  style="color: gray; font-family:sans-serif;">Graphics
+                                  Design</a>
+                          </li>
+                          <li>
+                              <a class="footer_heading" href="courses.html"
+                                  style="color: gray; font-family:sans-serif;">Video
+                                  Editing</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="d-flex">
+                  <div>
+                      <ul style="list-style: none;">
+                          <li>
+                              <a class="footer_heading" href="courses.html"
+                                  style="color: gray; font-family:sans-serif;">Full
+                                  Stack Development</a>
+                          </li>
+                          <li>
+                              <a class="footer_heading" href="courses.html"
+                                  style="color: gray; font-family:sans-serif;">Front-End
+                                  Development</a>
+                          </li>
+                          <li>
+                              <a class="footer_heading" href="courses.html"
+                                  style="color: gray; font-family:sans-serif;">Wordpress</a>
+                          </li>
+                          <li>
+                              <a class="footer_heading" href="courses.html"
+                                  style="color: gray; font-family:sans-serif;">Digital
+                                  Marketing</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="links" style="margin-left:1%;">
+          <div>
+              <h4 class="text-lg-center text-md-center text-sm-left"
+                  style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Helpful
+                  Links</h4>
+          </div>
+          <div class="link-data d-flex flex-lg-row flex-md-row flex-column">
+              <div class="d-flex">
+                  <div>
+                      <ul style="list-style: none;">
+                          <li>
+                              <a class="footer_heading" href="aboutus.html"
+                                  style="color: gray; font-family:sans-serif;">Why
+                                  Toptel?</a>
+                          </li>
+                          <li>
+                              <a class="footer_heading" href="aboutus.html"
+                                  style="color: gray; font-family:sans-serif;">Students
+                                  Works</a>
+                          </li>
+                          <li>
+                              <a class="footer_heading" href="aboutus.html"
+                                  style="color: gray; font-family:sans-serif;">Students
+                                  Review</a>
+                          </li>
+                          <li>
+                              <a class="footer_heading" href="placement.html"
+                                  style="color: gray; font-family:sans-serif;">Students
+                                  Placement</a>
+                          </li>
+                          <li>
+                              <a class="footer_heading" href="placement.html"
+                                  style="color: gray; font-family:sans-serif;">Placement
+                                  Companies</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="subscribe d-flex-wrap" >
+          <div class="subemail">
+              <h4
+                  style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Subscribe
+                  to our newsletter</h4>
+          </div>
+          <div class="subemail" style="width: 350px;">
+              <p
+                  style="color: gray; font-family:sans-serif;">Want
+                  to get special offers? Subscribe to our
+                  newsletter to get exclusive discount &amp;
+                  offers.</p>
+          </div>
+          <div class="subemail">
+              <form action method="post">
+                  <div class="subinput d-flex align-items-center justify-content-between">
+                      <input type="text" name id
+                          placeholder="Enter your email"
+                          style="margin-left: 5px; background-color: transparent; border: none; font-size: large;margin-top: 5px;">
+                      <button
+                          style="margin-right: 5px; height: 30px; border-radius: 6px; border: none; background-color: white; font-family: sans-serif;">Subscribe</button>
+                  </div>
+              </form>
+          </div>
+          <div class="socialmedia d-flex " style="margin-top: 20px;">
+              <div>
+                  <ul class="d-flex" style="list-style: none;">
+                      <li>
+                          <a href>
+                              <span>
+                                  <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="43" height="43"
+                                      viewBox="0 0 43 43"
+                                      fill="none"><circle cx="21.4771"
+                                          cy="21.4771" r="21.4771"
+                                          fill="white"></circle><path
+                                          d="M25.6213 18.6669H22.5416V16.7898C22.5416 16.0848 23.0444 15.9205 23.3985 15.9205C23.7518 15.9205 25.5718 15.9205 25.5718 15.9205V12.8214L22.5787 12.8105C19.2561 12.8105 18.4999 15.1219 18.4999 16.6011V18.6669H16.5784V21.8603H18.4999V30.8965H22.5416V21.8603H25.2689L25.6213 18.6669Z"
+                                          fill="black"></path></svg>
+                              </span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href>
+                              <span style="margin-left: 20px;">
+                                  <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="43" height="43"
+                                      viewBox="0 0 43 43"
+                                      fill="none"><circle cx="21.4898"
+                                          cy="21.4771" r="21.4771"
+                                          fill="white"></circle><path
+                                          d="M26.3885 13H28.9953L23.3002 19.7774L30 29H24.7541L20.6454 23.4066L15.944 29H13.3357L19.4271 21.7508L13 13H18.379L22.093 18.1126L26.3885 13ZM25.4736 27.3754H26.918L17.5942 14.5393H16.0441L25.4736 27.3754Z"
+                                          fill="black"></path></svg>
+                              </span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href>
+                              <span style="margin-left: 20px;">
+                                  <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="43" height="43"
+                                      viewBox="0 0 43 43"
+                                      fill="none"><circle cx="21.4995"
+                                          cy="21.4771" r="21.4771"
+                                          fill="white"></circle><path
+                                          d="M21.1219 17.542C18.7822 17.542 16.8435 19.4472 16.8435 21.8204C16.8435 24.1936 18.7487 26.0988 21.1219 26.0988C23.4951 26.0988 25.4003 24.1601 25.4003 21.8204C25.4003 19.4806 23.4617 17.542 21.1219 17.542ZM21.1219 24.5612C19.6178 24.5612 18.3811 23.3245 18.3811 21.8204C18.3811 20.3163 19.6178 19.0795 21.1219 19.0795C22.626 19.0795 23.8628 20.3163 23.8628 21.8204C23.8628 23.3245 22.626 24.5612 21.1219 24.5612Z"
+                                          fill="black"></path><path
+                                          d="M25.5672 18.4113C26.1026 18.4113 26.5366 17.9773 26.5366 17.442C26.5366 16.9066 26.1026 16.4727 25.5672 16.4727C25.0319 16.4727 24.5979 16.9066 24.5979 17.442C24.5979 17.9773 25.0319 18.4113 25.5672 18.4113Z"
+                                          fill="black"></path><path
+                                          d="M28.0746 14.9349C27.2055 14.0324 25.9688 13.5645 24.5649 13.5645H17.6794C14.7714 13.5645 12.8328 15.5031 12.8328 18.4111V25.2632C12.8328 26.7005 13.3007 27.9372 14.2366 28.8397C15.1391 29.7087 16.3424 30.1433 17.7128 30.1433H24.5315C25.9688 30.1433 27.1721 29.6753 28.0411 28.8397C28.9436 27.9706 29.4116 26.7339 29.4116 25.2966V18.4111C29.4116 17.0072 28.9436 15.8039 28.0746 14.9349ZM27.9409 25.2966C27.9409 26.3328 27.5732 27.1684 26.9715 27.7367C26.3699 28.3049 25.5343 28.6057 24.5315 28.6057H17.7128C16.7101 28.6057 15.8744 28.3049 15.2728 27.7367C14.6711 27.135 14.3703 26.2994 14.3703 25.2632V18.4111C14.3703 17.4083 14.6711 16.5727 15.2728 15.9711C15.841 15.4028 16.7101 15.102 17.7128 15.102H24.5984C25.6011 15.102 26.4367 15.4028 27.0384 16.0045C27.6066 16.6061 27.9409 17.4418 27.9409 18.4111V25.2966Z"
+                                          fill="black"></path></svg>
+                              </span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href>
+                              <span style="margin-left: 20px;">
+                                  <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="43" height="43"
+                                      viewBox="0 0 43 43"
+                                      fill="none"><circle cx="21.5122"
+                                          cy="21.4771" r="21.4771"
+                                          fill="white"></circle><path
+                                          d="M16.4423 30.084H12.9023V18.2842H16.4423V30.084ZM29.4221 30.084H25.8821V23.7805C25.8821 22.138 25.2969 21.3203 24.1369 21.3203C23.2177 21.3203 22.6348 21.7781 22.3422 22.695C22.3422 24.1841 22.3422 30.084 22.3422 30.084H18.8023C18.8023 30.084 18.8495 19.4642 18.8023 18.2842H21.5964L21.8124 20.6441H21.8855C22.6112 19.4642 23.7712 18.6641 25.3618 18.6641C26.5712 18.6641 27.5495 19.0004 28.2964 19.8453C29.048 20.6913 29.4221 21.8265 29.4221 23.4206V30.084Z"
+                                          fill="black"></path><path
+                                          d="M14.673 17.1039C15.6831 17.1039 16.5019 16.3115 16.5019 15.3339C16.5019 14.3564 15.6831 13.564 14.673 13.564C13.6629 13.564 12.844 14.3564 12.844 15.3339C12.844 16.3115 13.6629 17.1039 14.673 17.1039Z"
+                                          fill="black"></path></svg>
+                              </span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href>
+                              <span style="margin-left: 20px;">
+                                  <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="43" height="43"
+                                      viewBox="0 0 43 43"
+                                      fill="none"><circle cx="21.522"
+                                          cy="21.4771" r="21.4771"
+                                          fill="white"></circle><path
+                                          d="M31.2715 16.5537C31.0376 15.6736 30.3482 14.9806 29.4727 14.7453C27.8858 14.3179 21.5232 14.3179 21.5232 14.3179C21.5232 14.3179 15.1606 14.3179 13.5737 14.7453C12.6984 14.9806 12.0089 15.6736 11.7749 16.5537C11.3499 18.1488 11.3499 21.477 11.3499 21.477C11.3499 21.477 11.3499 24.8052 11.7749 26.4001C12.0089 27.2802 12.6984 27.9734 13.5737 28.2086C15.1606 28.6359 21.5232 28.6359 21.5232 28.6359C21.5232 28.6359 27.8858 28.6359 29.4727 28.2086C30.3482 27.9734 31.0376 27.2802 31.2715 26.4001C31.6966 24.8052 31.6966 21.477 31.6966 21.477C31.6966 21.477 31.6966 18.1488 31.2715 16.5537ZM19.4884 24.5452V18.4088L24.7746 21.477L19.4884 24.5452Z"
+                                          fill="black"></path></svg>
+                              </span>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="payment d-flex-wrap">
+          <div>
+              <h4
+                  style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin-left: 30%;">Payment
+                  Options</h4>
+          </div>
+          <div class="d-flex mt-3" style="margin-left: 30%; width: 100%;">
+              <div>
+                  <img src="Final_Images/Payment/24px.webp" alt
+                      style="margin-left: 5px;" class="img-fluid">
+              </div>
+              <div>
+                  <img src="Final_Images/Payment/24px-1.webp" alt
+                      style="margin-left: 5px;" class="img-fluid">
+              </div>
+          </div>
+          <div class="d-flex mt-3" style="margin-left: 30%; width: 100%;">
+              <div>
+                  <img src="Final_Images/Payment/24px-2.webp" alt
+                      style="margin-left: 5px;" class="img-fluid">
+              </div>
+              <div>
+                  <img src="Final_Images/Payment/24px-3.webp" alt
+                      style="margin-left: 5px;" class="img-fluid">
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <div>
+          <p
+              style="color: white; text-align: center; font-family: sans-serif; margin-top: 40px;">©
+              2024 KICT. All Rights Reserved.</p>
+      </div>
+  </div>
+</div>
+
+
+<!-- Pop up toggle -->
+<div class="offcanvas offcanvas-end" tab-index=-1 aria-labelledby="offcanvasRightLabel" id="offcanvasRight">
+  <div class="offcanvas-header">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+      <h2>Enroll Now</h2>
+      <hr color="black" width="30%">
+      <p>Get Free 3 Days Demo Classes</p>
+      <form action="">
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <input type="tel" placeholder="Phone">
+          <select name="" id="">
+              <option value="" selected disabled hidden>--- Select Course ---</option>
+              <option value="">Advance Web Design</option>
+              <option value="">Master in UI/UX Design</option>
+              <option value="">Fullstack Development</option>
+              <option value="">Master in Graphics Design</option>
+              <option value="">Flutter Development</option>
+              <option value="">Game Development</option>
+              <option value="">Digital Marketing</option>
+              <option value="">Wordpress</option>
+              <option value="">Other Course</option>
+          </select>
+          <select name="" id="">
+              <option value="" selected disabled hidden>--- Select Branch ---</option>
+              <option value="">Ghatlodia</option>
+              <option value="">Gota</option>
+              <option value="">South Bopal</option>
+              <option value="">Vastrapur - <span class="ft-blue">NEW</span></option>
+          </select>
+          <button>Send Inquiry</button>
+      </form>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+
+
+</body>
+
+</html>

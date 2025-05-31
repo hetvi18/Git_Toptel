@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./course.css">
+
+   
+</head>
+<body>
+
+    <!-- Main Slider -->
+  <div class="fixed-top">
+    <div id="carouselExampleIndicators container-fluid" class="carousel slide" data-bs-ride="carousel" style="background-color: #3f7bbd; height: 40px">
+        <div class="carousel-inner">
+          <div class="carousel-item active text-white text-center p-2" >
+            100% Job Gurantee.
+          </div>
+          <div class="carousel-item text-white text-center p-2">
+            New Admissions Open For Career and Placement Courses.
+          </div>
+        </div>
+        <button id="prenxtbtn" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button id="prenxtbtn" class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+<!-- NavBar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm d-flex align-items-center">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./Final_Images/kict_logo.jpg" alt="Logo" class="img-fluid logo" style="height: 50px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+                <a class="nav-link fw-bolder text-black" href="index.html" role="button" data-bs-toggle="">
+                    Home</a>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle fw-bolder text-black" href="#" role="button" data-bs-toggle="dropdown">
+                     Courses
+                  </a>
+                <ul class="dropdown-menu p-3">
+                    <div class="row" style="background-color: rgb(139, 190, 249); height: 100px; width: 300px; border-radius: 5px;">
+                        <img src="Final_Images/UI-UX_Navbar.png" alt="" style="height: 50px; width: 50px; border-radius: 5px; margin-right: 0px;">
+                        <h5>Master in UI/UX Design</h3> <br>
+                        <h6>Figma, Photoshop, Illustrator, XD, Ai tools...</h4>
+                    </div>
+                  <li>
+                    <span class="dropdown-item-heading" style="padding-bottom: 5px; border-bottom: 5px dashed rgb(44, 139, 247); border-radius : 5px;">Multimedia Courses</span></u>
+                    <a class="dropdown-item" href="courses.html">Advance Web Design</a>
+                    <a class="dropdown-item" href="#">Master in UI / UX Design</a>
+                    <a class="dropdown-item" href="#">Full Stack Development </a>
+                    <a class="dropdown-item" href="#">Master in Graphics Design</a>
+                    <a class="dropdown-item" href="#">Game Development</a>
+                    <a class="dropdown-item" href="#">Flutter Development</a>
+                    <a class="dropdown-item" href="#">Digital Marketing</a>
+                    <a class="dropdown-item" href="#">Wordpress</a>
+                  </li>
+                  <li>
+                    <span class="dropdown-item-heading">Short Term Courses</span>
+                    <a class="dropdown-item" href="#">C/C++</a>
+                    <a class="dropdown-item" href="#">Figma</a>
+                    <a class="dropdown-item" href="#">Filmora</a>
+                    <a class="dropdown-item" href="#">Canva</a>
+                    <a class="dropdown-item" href="#">Wordpress</a>
+                    <a class="dropdown-item" href="#">Adobe XD</a>
+                    <a class="dropdown-item" href="#">Adobe Illustrator</a>
+                    <a class="dropdown-item" href="#">React JS</a>
+                  </li>
+                  <li>
+                    <span class="dropdown-item-heading">Trending Courses</span>
+                    <a class="dropdown-item" href="#">Master in UI/UX Design</a>
+                    <a class="dropdown-item" href="#">Advance Web Design</a>
+                    <a class="dropdown-item" href="#">Full Stack Development</a>
+                    <a class="dropdown-item" href="#">Node JS</a>
+                    <a class="dropdown-item" href="#">React JS</a>
+                    <a class="dropdown-item" href="#">Frontend Development</a>
+                    <a class="dropdown-item" href="#">Game Development</a>
+                    <a class="dropdown-item" href="#">Digital Maarketing</a>
+                    <a class="dropdown-item" href="#">Video Editing</a>
+                  </li>
+                </ul>
+            </li>
+            <a class="nav-link fw-bolder text-black" href="aboutus.html" role="button" data-bs-toggle="">About Us</a>
+                
+            <a class="nav-link fw-bolder text-black" href="placement.html" role="button" data-bs-toggle="">Placement</a>
+                
+            <a class="nav-link fw-bolder text-black" href="blog.html" role="button" data-bs-toggle="">Blog</a>
+                
+            <a class="nav-link fw-bolder text-black" href="#" role="button" data-bs-toggle="">Contact Us</a>
+            </ul>
+          </div>
+        </div>
+        <button class="demobtn bg-dark text-white fw-bolder" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" >Get Demo Lecture</button>
+      </nav>
+  </div>
+
+
+    <section class="hero-section d-flex  align-items-center  justify-content-center text-white">
+        <div class="hero-overlay  "> </div>
+        <div class="box hero-content text-align-start ">
+            
+            <div> <p>Home / Courses /
+                <span class="text-warning ">Advance web design</span> </p> 
+                <div class="box d-flex ">
+                    <div class=" col font-size-75  m-3 ">
+                        <p>
+                            <div><p> <h1> Advance
+                              <span class="text-warning"> Web Design</span></h1><br></p></div>
+                              <h5> Advanced web design encompasses complex design techniques and technologies aimed at creating highly interactive, visually appealing, and user-friendly websites</h5></p><br>
+                            <button type="button" class="btn btn-outline-warning">Download Brochure</button><br><br><br><br><br><br> 
+                            <div class="hero-rating image-fluid"> <img src="Final_Images/Course/img7.jpeg.png" width="1380px" height="200px" class="rounded img-fluid"></div>
+                        </div>
+                        
+                        <div class=" img-fluid d-flex-end">
+                            <img src="Final_Images/Course/img7.jpeg" width="340px" class=" rounded float-end justify-content-end">
+                    </div>
+                    
+                </div>
+                 </div>
+             </div>
+        </div>
+    </section><br>
+    <div class="row ms-5 d-flex " style="width: 1110px; height: 400px;" >
+        <h3>Key <span class="text-warning "> features</span></h3>
+       <div class=" col-4 border  rounded-5  text-center m-2" style="width: 350px;"> 
+               <img src="Final_Images/Course/img15.jpeg" width="50px" alt="img"> Course Duration- 3 Months
+            </div>
+            <div class=" col-4 border  rounded-5 text-center m-2" style="width: 350px;"> 
+                <img src="Final_Images/Course/img16.jpeg" width="50px" alt="img">  100% Job-Oriented Training
+            </div>
+            <div class=" col-4 border  rounded-5 text-center m-2" style="width: 350px;"> 
+                <img src="Final_Images/Course/img17.jpeg" width="50px" alt="img">  Customized Syllabus 
+            </div>
+            <div class=" col-4 border rounded-5 text-center m-2" style="width: 350px;">
+                <img src="Final_Images/Course/img18.jpeg" width="50px" alt="img"> Affordable Courses Fees 
+            </div>
+            <div class=" col-4 border  rounded-5 text-center m-2" style="width: 350px;">
+                <img src="Final_Images/Course/img19.jpeg" width="50px" alt="img"> 3 Days Demo Lectures Free
+            </div>
+            <div class=" col-4 border  rounded-5 text-center m-2" style="width: 350px;">
+                <img src="Final_Images/Course/img20.jpeg" width="50px" alt="img">Industry Expert Faculty
+            </div>
+            <div class= " col-4 border  rounded-5 text-center m-2" style="width: 350px;" >
+                <img src="Final_Images/Course/img21.jpeg" width="50px" alt="img">Individual Student Attention
+            </div>
+            <div class=" col-4 border  rounded-5 text-center m-2" style="width: 350px;">
+                <img src="Final_Images/Course/img22.jpeg" width="50px" alt="img">Query Sessions
+            </div>
+            <div class=" col-4 border  rounded-5 text-center m-2" style="width: 350px;">
+                <img src="Final_Images/Course/img23.jpeg" width="50px" alt="img">100% Job Placement Support
+            </div>
+        </div>
+       
+    <div class="row border border-dark ms-5 col" style="width: 1600px;">
+        <div class="container-fluid  col-6" style="margin-left: 40px;">
+            <div class="row" style="width: 1000px; height:500px;">
+                <h2><B>ABOUT <span class="text-warning ">COURSE</span></B></h2><br>
+                <h5>
+                    An advanced web design course Training online in Surat explores the intricacies of modern web development, emphasizing cutting-edge techniques and technologies to craft exceptional digital experiences.
+            In our web design course, students will learn performance optimization strategies to ensure fast loading times and top performance across devices and networks. Our web design classes also dive deep into typography and visual hierarchy, teaching you how to customize typography and use it as a powerful design element to enhance both visual appeal and readability. Additionally, the web design course online covers advanced web technologies, emerging trends, and thorough cross-browser compatibility testing. Explore our web design course fees today and start your journey towards becoming a skilled web designer!
+            <br>
+            <br>
+            If you’re looking for a “web designing course near me,” this web design course in Surat is perfect for you. It covers a comprehensive range of topics, including advanced layout design using CSS Grid, Flexbox, and responsive design principles to create adaptable layouts across various devices.
+        </h5></div>
+        </div>
+        <div class="container1 border rounded-5 col-6">
+            <h6>Attend a Free Demo
+                   <br>
+                   Fill the details and we will call you for further guidance
+               </h6>
+               <form>   
+                   <div class="form-group">
+                       <label for="name">Name:</label>
+                       <input type="text" id="name" name="name" required>
+                       </div>
+                       <div class="form-group">
+                           <label for="email">Email:</label>
+                           <input type="email" id="email" name="email" required>
+                           </div>
+                           <div class="form-group">
+                               <label for="phone">Phone Number:</label>
+                               <input type="tel" id="phone" name="phone" required>
+                            </div>
+                               <div class="form-group">
+                                   <label for="course">Course:</label>
+                                   <select id="course" name="course" required>
+                                       <option value="">--Select a course--</option>
+                                       <option value="course1">Advance wed design</option>
+                                       <option value="course2">Master in UI/UX design</option>
+                                       <option value="course3">Full stack development</option>
+                                       <option value="course3">Master in Graphic Design</option>
+                                       <option value="course3">Flutter development</option>
+                                       <option value="course3">Game Development</option>
+                                       <option value="course3">Digital Markating</option>
+                                       <option value="course3">Wordpress</option>
+                                       <option value="course3">other Course</option>
+                                       </select>
+                                </div>
+                   <div class="form-group">
+                       <label for="branch">Select Branch:</label>
+                       <select id="branch" name="branch" required>
+                           <option value="">--Select a branch--</option>
+                           <option value="branch1">Sarthana</option>
+                           <option value="branch2">Utran</option>
+                        </select>
+                    </div>
+                    <br>
+                   <button type="submit">Send Inquiry</button>
+               </form>
+           </div>  
+           <div>
+            <div class="dropdown " style="width: 1300px; height: 600px;">
+             <h2> <b> Syllabus </b> </h2>
+            <button class="btn border shadow p-3 mb-5 bg-body-tertiary rounded w-75 p-3 dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              1.  Advanced HTML and CSS Concepts
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Semantic HTML: using HTML5 semantic elements for better structure and accessibility.</a></li>
+              <li><a class="dropdown-item" href="#">CSS preprocessors: working with Sass or LESS to enhance CSS with variables, mixins, nesting, and inheritance.</a></li>
+              <li><a class="dropdown-item" href="#">Responsive design techniques: implementing media queries, flexible layouts, and fluid grids for multi-device compatibility.</a></li>
+            </ul>
+          <!-- </div> -->
+          <!-- <div class="dropdown" style="width: 1300px;"> -->
+              <button class="btn border shadow p-3 mb-5 bg-body-tertiary rounded w-75 p-3 dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                 2.  JavaScript Fundamentals for Web Designers
+                </button>
+                <ul class="dropdown-menu" style="width: 900px;">
+                    <li><a class="dropdown-item" href="#">Semantic HTML: using HTML5 semantic elements for better structure and accessibility.</a></li>
+                    <li><a class="dropdown-item" href="#">CSS preprocessors: working with Sass or LESS to enhance CSS with variables, mixins, nesting, and inheritance.</a></li>
+                    <li><a class="dropdown-item" href="#">Responsive design techniques: implementing media queries, flexible layouts, and fluid grids for multi-device compatibility.</a></li>
+                </ul>
+            <!-- </div> -->
+            <!-- <div class="dropdown" style="width: 1300px;"> -->
+            <button class="btn border shadow p-3 mb-5 bg-body-tertiary rounded w-75 p-3 dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              3.  Frontend Frameworks and Libraries        </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Introduction to frontend frameworks: exploring popular frameworks like React, Vue.js, or Angular for building dynamic user interfaces.</a></li>
+              <li><a class="dropdown-item" href="#"> UI component libraries: leveraging libraries like Bootstrap, Material-UI, or Tailwind CSS to streamline UI development and maintain consistency.</a></li>
+              <li><a class="dropdown-item" href="#">Single Page Application (SPA) development: understanding the concepts of SPA architecture and implementing routing, state management, and data fetching.
+            </a></li>
+            </ul>
+          <!-- </div> -->
+            <!-- <div class="dropdown" style="width: 1300px;"> -->
+            <button class="btn border shadow p-3 mb-5 bg-body-tertiary rounded w-75 p-3 dropdown-toggle" type="button" data-bs-toggle="dropdown">
+               4.  Advanced CSS Layout Techniques        </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Flexbox and Grid layout: mastering CSS layout models for creating complex and responsive page layouts with ease.</a></li>
+              <li><a class="dropdown-item" href="#">CSS animations and transitions: implementing CSS animations and transitions to add interactivity and visual effects to web elements.</a></li>
+              <li><a class="dropdown-item" href="#">CSS frameworks and design systems: creating custom design systems or utilizing existing frameworks for rapid prototyping and consistent styling.
+            </a></li>
+            </ul>
+            <button class="btn border shadow p-3 mb-5 bg-body-tertiary rounded w-75 p-3 dropdown-toggle" type="button" data-bs-toggle="dropdown">
+               5.  Web Accessibility and Performance Optimization   </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Accessibility best practices: ensuring web content is accessible to users with disabilities by adhering to WCAG guidelines and implementing ARIA roles and attributes.</a></li>
+              <li><a class="dropdown-item" href="#">Performance optimization techniques: optimizing assets, minimizing render-blocking resources, and implementing lazy loading and code splitting for faster page load times.</a></li>
+              <li><a class="dropdown-item" href="#">Progressive Web Apps (PWAs): transforming web applications into PWAs for offline functionality, push notifications, and improved user experience.
+            </a></li>
+            </ul>
+          </div>
+        </div>
+    
+   <!-- Bottom Image  -->
+<div class="bottom-banner p-3 mt-3">
+    <a href=""><img src="Final_Images/Website-bottom-banner.png" alt="" class="img-fluid" srcset="" height="550px" width="100%"></a>
+  </div>
+  
+   <!-- footer -->
+   <div class="footer-section-fluid">
+    <div class="footer-logo d-flex justify-content-around p-5 flex-lg-row flex-md-row flex-column">
+      <div class="mx-lg-0 mx-md-0 mx-5">
+        <img src="Final_Images/kict_logo.jpg"
+            alt srcset height="70px">
+    </div>      
+    <div class="footer-bar-fluid d-flex flex-lg-row flex-md-row flex-sm-column mt-lg-0 mt-md-0 mt-3">
+            <div class="d-flex flex-md-row flex-column flex-wrap">
+                <div class="footer-content d-flex footer-text-logo" >
+                  <div style="height: 50px; width: 50px; border-radius: 200px;"><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30" style="margin: 10px;"
+                    fill="white"
+                    class="bi bi-telephone-fill"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                </svg></div>                  <div>
+                        <span
+                            style="color: white; font-family: sans-serif; margin-left: 10px;">Ghatlodiya
+                            Branch:-</span>
+                        <p
+                            style="color: white; font-family: sans-serif; margin-left: 10px; ">+91
+                            99046 00063</p>
+                    </div>
+                </div>
+                <div class="footer-content d-flex">
+                  <div
+                        style="height: 50px; width: 50px; border-radius: 200px;"><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30"
+                            height="30" style="margin: 10px;"
+                            fill="white"
+                            class="bi bi-telephone-fill"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                        </svg></div>
+                    <div>
+                        <span
+                            style="color: white; font-family: sans-serif;margin-left: 10px;">South Bopal
+                            Branch:-</span>
+                        <p
+                            style="color: white; font-family: sans-serif; margin-left: 10px;">+91
+                            90990 09026</p>
+                    </div>
+                </div>
+                <div class="footer-content d-flex">
+                  <div
+                        style="height: 50px; width: 50px; border-radius: 200px; margin-left: 10px;"><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30"
+                            height="30" style="margin: 10px;"
+                            fill="white"
+                            class="bi bi-envelope-fill"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                        </svg></div>
+                    <div style="margin-top: 10px; margin-left: 10px;">
+                        <p
+                            style="color: white; font-family: sans-serif;">kictindia@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-middle-fluid d-flex flex-lg-row flex-md-row flex-column" style="margin-left: 6%;">
+        <div class="class">
+            <div>
+                <h4
+                    style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Our
+                    Courses</h4>
+            </div>
+            <div class="class-data d-flex flex-lg-row flex-md-row flex-column" >
+                <div class="d-flex">
+                    <div>
+                        <ul style="list-style: none;">
+                            <li>
+                                <a class="footer_heading" href="courses.html"
+                                    style="color: gray; font-family:sans-serif; ">Web
+                                    Design</a>
+                            </li>
+                            <li>
+                                <a class="footer_heading" href="courses.html"
+                                    style="color: gray; font-family:sans-serif;">UI/UX
+                                    Design</a>
+                            </li>
+                            <li>
+                                <a class="footer_heading" href="courses.html"
+                                    style="color: gray; font-family:sans-serif;">Graphics
+                                    Design</a>
+                            </li>
+                            <li>
+                                <a class="footer_heading" href="courses.html"
+                                    style="color: gray; font-family:sans-serif;">Video
+                                    Editing</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div>
+                        <ul style="list-style: none;">
+                            <li>
+                                <a class="footer_heading" href="courses.html"
+                                    style="color: gray; font-family:sans-serif;">Full
+                                    Stack Development</a>
+                            </li>
+                            <li>
+                                <a class="footer_heading" href="courses.html"
+                                    style="color: gray; font-family:sans-serif;">Front-End
+                                    Development</a>
+                            </li>
+                            <li>
+                                <a class="footer_heading" href="courses.html"
+                                    style="color: gray; font-family:sans-serif;">Wordpress</a>
+                            </li>
+                            <li>
+                                <a class="footer_heading" href="courses.html"
+                                    style="color: gray; font-family:sans-serif;">Digital
+                                    Marketing</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="links" style="margin-left:1%;">
+            <div>
+                <h4 class="text-lg-center text-md-center text-sm-left"
+                    style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Helpful
+                    Links</h4>
+            </div>
+            <div class="link-data d-flex flex-lg-row flex-md-row flex-column">
+                <div class="d-flex">
+                    <div>
+                        <ul style="list-style: none;">
+                            <li>
+                                <a class="footer_heading" href="aboutus.html"
+                                    style="color: gray; font-family:sans-serif;">Why
+                                    Toptel?</a>
+                            </li>
+                            <li>
+                                <a class="footer_heading" href="aboutus.html"
+                                    style="color: gray; font-family:sans-serif;">Students
+                                    Works</a>
+                            </li>
+                            <li>
+                                <a class="footer_heading" href="aboutus.html"
+                                    style="color: gray; font-family:sans-serif;">Students
+                                    Review</a>
+                            </li>
+                            <li>
+                                <a class="footer_heading" href="placement.html"
+                                    style="color: gray; font-family:sans-serif;">Students
+                                    Placement</a>
+                            </li>
+                            <li>
+                                <a class="footer_heading" href="placement.html"
+                                    style="color: gray; font-family:sans-serif;">Placement
+                                    Companies</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subscribe d-flex-wrap" >
+            <div class="subemail">
+                <h4
+                    style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Subscribe
+                    to our newsletter</h4>
+            </div>
+            <div class="subemail" style="width: 350px;">
+                <p
+                    style="color: gray; font-family:sans-serif;">Want
+                    to get special offers? Subscribe to our
+                    newsletter to get exclusive discount &amp;
+                    offers.</p>
+            </div>
+            <div class="subemail">
+                <form action method="post">
+                    <div class="subinput d-flex align-items-center justify-content-between">
+                        <input type="text" name id
+                            placeholder="Enter your email"
+                            style="margin-left: 5px; background-color: transparent; border: none; font-size: large;margin-top: 5px;">
+                        <button
+                            style="margin-right: 5px; height: 30px; border-radius: 6px; border: none; background-color: white; font-family: sans-serif;">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+            <div class="socialmedia d-flex " style="margin-top: 20px;">
+                <div>
+                    <ul class="d-flex" style="list-style: none;">
+                        <li>
+                            <a href>
+                                <span>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="43" height="43"
+                                        viewBox="0 0 43 43"
+                                        fill="none"><circle cx="21.4771"
+                                            cy="21.4771" r="21.4771"
+                                            fill="white"></circle><path
+                                            d="M25.6213 18.6669H22.5416V16.7898C22.5416 16.0848 23.0444 15.9205 23.3985 15.9205C23.7518 15.9205 25.5718 15.9205 25.5718 15.9205V12.8214L22.5787 12.8105C19.2561 12.8105 18.4999 15.1219 18.4999 16.6011V18.6669H16.5784V21.8603H18.4999V30.8965H22.5416V21.8603H25.2689L25.6213 18.6669Z"
+                                            fill="black"></path></svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href>
+                                <span style="margin-left: 20px;">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="43" height="43"
+                                        viewBox="0 0 43 43"
+                                        fill="none"><circle cx="21.4898"
+                                            cy="21.4771" r="21.4771"
+                                            fill="white"></circle><path
+                                            d="M26.3885 13H28.9953L23.3002 19.7774L30 29H24.7541L20.6454 23.4066L15.944 29H13.3357L19.4271 21.7508L13 13H18.379L22.093 18.1126L26.3885 13ZM25.4736 27.3754H26.918L17.5942 14.5393H16.0441L25.4736 27.3754Z"
+                                            fill="black"></path></svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href>
+                                <span style="margin-left: 20px;">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="43" height="43"
+                                        viewBox="0 0 43 43"
+                                        fill="none"><circle cx="21.4995"
+                                            cy="21.4771" r="21.4771"
+                                            fill="white"></circle><path
+                                            d="M21.1219 17.542C18.7822 17.542 16.8435 19.4472 16.8435 21.8204C16.8435 24.1936 18.7487 26.0988 21.1219 26.0988C23.4951 26.0988 25.4003 24.1601 25.4003 21.8204C25.4003 19.4806 23.4617 17.542 21.1219 17.542ZM21.1219 24.5612C19.6178 24.5612 18.3811 23.3245 18.3811 21.8204C18.3811 20.3163 19.6178 19.0795 21.1219 19.0795C22.626 19.0795 23.8628 20.3163 23.8628 21.8204C23.8628 23.3245 22.626 24.5612 21.1219 24.5612Z"
+                                            fill="black"></path><path
+                                            d="M25.5672 18.4113C26.1026 18.4113 26.5366 17.9773 26.5366 17.442C26.5366 16.9066 26.1026 16.4727 25.5672 16.4727C25.0319 16.4727 24.5979 16.9066 24.5979 17.442C24.5979 17.9773 25.0319 18.4113 25.5672 18.4113Z"
+                                            fill="black"></path><path
+                                            d="M28.0746 14.9349C27.2055 14.0324 25.9688 13.5645 24.5649 13.5645H17.6794C14.7714 13.5645 12.8328 15.5031 12.8328 18.4111V25.2632C12.8328 26.7005 13.3007 27.9372 14.2366 28.8397C15.1391 29.7087 16.3424 30.1433 17.7128 30.1433H24.5315C25.9688 30.1433 27.1721 29.6753 28.0411 28.8397C28.9436 27.9706 29.4116 26.7339 29.4116 25.2966V18.4111C29.4116 17.0072 28.9436 15.8039 28.0746 14.9349ZM27.9409 25.2966C27.9409 26.3328 27.5732 27.1684 26.9715 27.7367C26.3699 28.3049 25.5343 28.6057 24.5315 28.6057H17.7128C16.7101 28.6057 15.8744 28.3049 15.2728 27.7367C14.6711 27.135 14.3703 26.2994 14.3703 25.2632V18.4111C14.3703 17.4083 14.6711 16.5727 15.2728 15.9711C15.841 15.4028 16.7101 15.102 17.7128 15.102H24.5984C25.6011 15.102 26.4367 15.4028 27.0384 16.0045C27.6066 16.6061 27.9409 17.4418 27.9409 18.4111V25.2966Z"
+                                            fill="black"></path></svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href>
+                                <span style="margin-left: 20px;">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="43" height="43"
+                                        viewBox="0 0 43 43"
+                                        fill="none"><circle cx="21.5122"
+                                            cy="21.4771" r="21.4771"
+                                            fill="white"></circle><path
+                                            d="M16.4423 30.084H12.9023V18.2842H16.4423V30.084ZM29.4221 30.084H25.8821V23.7805C25.8821 22.138 25.2969 21.3203 24.1369 21.3203C23.2177 21.3203 22.6348 21.7781 22.3422 22.695C22.3422 24.1841 22.3422 30.084 22.3422 30.084H18.8023C18.8023 30.084 18.8495 19.4642 18.8023 18.2842H21.5964L21.8124 20.6441H21.8855C22.6112 19.4642 23.7712 18.6641 25.3618 18.6641C26.5712 18.6641 27.5495 19.0004 28.2964 19.8453C29.048 20.6913 29.4221 21.8265 29.4221 23.4206V30.084Z"
+                                            fill="black"></path><path
+                                            d="M14.673 17.1039C15.6831 17.1039 16.5019 16.3115 16.5019 15.3339C16.5019 14.3564 15.6831 13.564 14.673 13.564C13.6629 13.564 12.844 14.3564 12.844 15.3339C12.844 16.3115 13.6629 17.1039 14.673 17.1039Z"
+                                            fill="black"></path></svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href>
+                                <span style="margin-left: 20px;">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="43" height="43"
+                                        viewBox="0 0 43 43"
+                                        fill="none"><circle cx="21.522"
+                                            cy="21.4771" r="21.4771"
+                                            fill="white"></circle><path
+                                            d="M31.2715 16.5537C31.0376 15.6736 30.3482 14.9806 29.4727 14.7453C27.8858 14.3179 21.5232 14.3179 21.5232 14.3179C21.5232 14.3179 15.1606 14.3179 13.5737 14.7453C12.6984 14.9806 12.0089 15.6736 11.7749 16.5537C11.3499 18.1488 11.3499 21.477 11.3499 21.477C11.3499 21.477 11.3499 24.8052 11.7749 26.4001C12.0089 27.2802 12.6984 27.9734 13.5737 28.2086C15.1606 28.6359 21.5232 28.6359 21.5232 28.6359C21.5232 28.6359 27.8858 28.6359 29.4727 28.2086C30.3482 27.9734 31.0376 27.2802 31.2715 26.4001C31.6966 24.8052 31.6966 21.477 31.6966 21.477C31.6966 21.477 31.6966 18.1488 31.2715 16.5537ZM19.4884 24.5452V18.4088L24.7746 21.477L19.4884 24.5452Z"
+                                            fill="black"></path></svg>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="payment d-flex-wrap">
+            <div>
+                <h4
+                    style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin-left: 30%;">Payment
+                    Options</h4>
+            </div>
+            <div class="d-flex mt-3" style="margin-left: 30%; width: 100%;">
+                <div>
+                    <img src="Final_Images/Payment/24px.webp" alt
+                        style="margin-left: 5px;" class="img-fluid">
+                </div>
+                <div>
+                    <img src="Final_Images/Payment/24px-1.webp" alt
+                        style="margin-left: 5px;" class="img-fluid">
+                </div>
+            </div>
+            <div class="d-flex mt-3" style="margin-left: 30%; width: 100%;">
+                <div>
+                    <img src="Final_Images/Payment/24px-2.webp" alt
+                        style="margin-left: 5px;" class="img-fluid">
+                </div>
+                <div>
+                    <img src="Final_Images/Payment/24px-3.webp" alt
+                        style="margin-left: 5px;" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div>
+            <p
+                style="color: white; text-align: center; font-family: sans-serif; margin-top: 40px;">©
+                2024 KICT. All Rights Reserved.</p>
+        </div>
+    </div>
+  </div>
+
+   <!-- Pop up toggle -->
+<div class="offcanvas offcanvas-end" tab-index=-1 aria-labelledby="offcanvasRightLabel" id="offcanvasRight">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <h2>Enroll Now</h2>
+        <hr color="black" width="30%">
+        <p>Get Free 3 Days Demo Classes</p>
+        <form action="">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Phone">
+            <select name="" id="">
+                <option value="" selected disabled hidden>--- Select Course ---</option>
+                <option value="">Advance Web Design</option>
+                <option value="">Master in UI/UX Design</option>
+                <option value="">Fullstack Development</option>
+                <option value="">Master in Graphics Design</option>
+                <option value="">Flutter Development</option>
+                <option value="">Game Development</option>
+                <option value="">Digital Marketing</option>
+                <option value="">Wordpress</option>
+                <option value="">Other Course</option>
+            </select>
+            <select name="" id="">
+                <option value="" selected disabled hidden>--- Select Branch ---</option>
+                <option value="">Ghatlodia</option>
+                <option value="">Gota</option>
+                <option value="">South Bopal</option>
+                <option value="">Vastrapur - <span class="ft-blue">NEW</span></option>
+            </select>
+            <button>Send Inquiry</button>
+        </form>
+    </div>
+  </div>
+  
+  
+</body>
+</html>
